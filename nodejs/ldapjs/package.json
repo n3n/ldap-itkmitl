@@ -1,0 +1,10 @@
+{
+  "name": "ldap-itkmitl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nonpawit Teerachetmongkol (nonpawit.tee@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "ldapjs": "^2.1.1"
+  }
+}
