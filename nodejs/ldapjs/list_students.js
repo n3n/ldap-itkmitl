@@ -19,7 +19,7 @@ client.search(searchBase, searchOptions, (error, res) => {
 
   const list = [];
   res.on("searchEntry", (entry) => {
-    ou.push(entry.object);
+    list.push(entry.object);
   });
   res.on("searchReference", function (referral) {
     console.log("referral: " + referral.uris.join());
